@@ -1,0 +1,37 @@
+.qti-test-scope .action-bar.horizontal-action-bar {
+  .progressbar {
+    position: absolute;
+    right: 30px;
+    bottom: 05px;
+    min-width: 150px;
+    max-width: 200px;
+    height: 0.6em;
+  }
+  .progress-box, .timer-box, .item-number-box {
+    position: absolute;
+    right: 2px;
+    bottom: 45px;
+    padding-top: 4px;
+    display: inline-block;
+    white-space: normal;
+    -webkit-flex: 0 0 auto;
+    flex: 0 1 auto;
+  }
+}
+
+.action-bar.horizontal-action-bar li.btn-info {
+  overflow: hidden;
+  background: grey;
+}
+
+.qti-test-scope {
+  .action-bar li.btn-info {
+    border-color: rgba(255, 255, 255, 0.3);
+  }
+  .qti-timer {
+    padding: 0 190px;
+  }
+  .action-bar.horizontal-action-bar > .control-box {
+    color: black;
+  }
+}

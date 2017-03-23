@@ -1,0 +1,11 @@
+.action-bar{
+background:transparent;
+padding:3px;
+overflow:hidden;
+color:#e6eef4;
+}
+
+.action-bar.horizontal-action-bar li.btn-info{
+overflow:hidden;
+background:grey;
+}
